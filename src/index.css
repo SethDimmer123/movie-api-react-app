@@ -118,11 +118,13 @@ ul {
     margin-top: 15px;
     position: absolute;
     right: 0;
-    font-size: 5px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     width: 100%;
-    max-width: 65px;
+    max-width: 60px;
     padding: 10px;
+    border-color: black;
+    background-color: transparent;
+    border: none;
   }
 
 
