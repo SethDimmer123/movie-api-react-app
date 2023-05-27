@@ -118,7 +118,6 @@ ul {
     margin-top: 15px;
     position: absolute;
     right: 0;
-    /* border-radius: 20px; */
     width: 100%;
     max-width: 60px;
     padding: 10px;
@@ -130,9 +129,45 @@ ul {
 
   .homepage__logo{
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
+
+  /* FOOTER */
+
+  footer{
+    background-color: white;
+  }
+
+  .footer__logo{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .footer__logo--img{
+    width: 160px;
+  }
+
+  .footer__copyright{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .footer__list{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__link{
+    color: black;
+    margin: 0 40px;
+  }
+
+
+
 
 
 
