@@ -1,6 +1,5 @@
 import React from 'react'
 import MoviFlixLogo from "../assets/MOVIFLIX (2).png"
-<assets />
 
 
 const Footer = () =>  {
