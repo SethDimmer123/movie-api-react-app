@@ -3,7 +3,7 @@ import MoviFlixLogo from "../assets/MOVIFLIX (2).png"
 <assets />
 
 
-function Footer() {
+const Footer = () =>  {
   return (
     <footer>
         <div className='container'>
@@ -18,7 +18,7 @@ function Footer() {
                 </div>
                 <div className="footer__list">
                     <a href='/' className='footer__link'>Home</a>
-                    <a href='/' className='footer__link'>API</a>
+                    <a href='https://www.omdbapi.com' className='footer__link'>API</a>
                     <a href='/' className='footer__link'>Browse</a>
                     <a href='/' className='footer__link'>GitHub</a>
                 </div>

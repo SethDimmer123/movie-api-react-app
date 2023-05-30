@@ -1,15 +1,20 @@
 import Footer from './components/Footer.jsx';
-import Landing from './components/Landing.jsx';
 import Nav from './components/Nav.jsx';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Home from './pages/Home.jsx';
 
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-      <Landing/>
-      <Footer/>
-    </div>
+    <Router>
+      <div className="App">
+        <Route />
+        <Nav />
+        {/* <Landing /> */}
+        <Home />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

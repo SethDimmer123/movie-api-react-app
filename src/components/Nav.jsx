@@ -2,7 +2,7 @@ import React from 'react'
 import MoviFlixLogo from "../assets/Untitled design (1).png"
 
 
-function Nav() {
+const Nav = () => {
   return (
     <nav>
         <div className="nav__container">
