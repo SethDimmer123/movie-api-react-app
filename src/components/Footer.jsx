@@ -1,5 +1,6 @@
 import React from 'react'
-import MoviFlixLogo from "../assets/Untitled design (1).png"
+import MoviFlixLogo from "../assets/MOVIFLIX (2).png"
+<assets />
 
 
 function Footer() {

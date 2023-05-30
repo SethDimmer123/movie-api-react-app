@@ -137,13 +137,12 @@ ul {
   /* FOOTER */
 
   footer{
-    background-color: white;
+    background-color:black;
   }
 
   .footer__logo{
     display: flex;
     justify-content: center;
-
   }
 
   .footer__logo--img{
@@ -153,7 +152,9 @@ ul {
   .footer__copyright{
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    color: white;
+
   }
 
   .footer__list{
@@ -162,8 +163,10 @@ ul {
   }
 
   .footer__link{
-    color: black;
+    color: white;
     margin: 0 40px;
+    padding-bottom:50px ;
+
   }
 
 
