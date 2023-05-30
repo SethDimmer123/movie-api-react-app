@@ -124,6 +124,7 @@ ul {
     border-color: black;
     background-color: transparent;
     border: none;
+    cursor: pointer;
   }
 
 
@@ -168,6 +169,74 @@ ul {
     padding-bottom:50px ;
 
   }
+
+
+  /* BROWSE MOVIES  */
+
+  #movies__body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+#movies__main {
+  flex: 1;
+  background-color: rgb(248,249,250);
+  min-height: 80vh; 
+}
+
+
+.browse__header {
+  /* padding: 15px 24px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+
+.movies__header--title {
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.movies__keyword--search{
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.movies__btn{
+  margin-top: 15px;
+  position: absolute;
+  left:0;
+  transform: matrix(1, 0, 0, 1, 530, 35);
+  width: 100%;
+  max-width: 60px;
+  padding: 10px;
+  border-color: black;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.movies__keyword--input{
+  border-radius: 20px;
+  margin-top: 75px;
+  padding: 0px 15px;
+  height: 65px;
+  width: 100%;
+  max-width: 450px;
+  font-size: 24px
+}
+
+
+
 
 
 
