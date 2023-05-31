@@ -1,6 +1,10 @@
 import React from "react";
+import Movie from "../components/ui/Movie";
+
 
 const Browse = () => {
+
+
   return (
     <div id="movies__body">
       <main id="movies__main">
@@ -39,6 +43,12 @@ const Browse = () => {
               <h2 className="section__title movies__header--title">
                 Search results:
               </h2>
+              <div className="movies">
+                <Movie/>
+                <Movie/>
+                <Movie/>
+                <Movie/>
+              </div>
             </div>
           </div>
         </section>

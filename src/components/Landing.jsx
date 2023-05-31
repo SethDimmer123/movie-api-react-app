@@ -2,6 +2,8 @@ import React from "react";
 import HomePagePic from "../assets/undraw.svg";
 
 const Landing = () => {
+
+  
   return (
     <section id="landing">
       <header>
