@@ -47,7 +47,6 @@ const Browse = () => {
                 <Movie/>
                 <Movie/>
                 <Movie/>
-                <Movie/>
               </div>
             </div>
           </div>
