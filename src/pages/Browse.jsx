@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Movie from "../components/ui/Movie";
+import axios from "axios";
 
 
 const Browse = () => {
+
+useEffect(() => {
+  async function fetchMovies() {
+    const data = await fetch("https://www.omdbapi.com/?i=tt3896198&apikey=26015f09&s=movie")
+    console.log(data)
+  }
+  fetchMovies()
+ },[]);
 
 
   return (
@@ -44,9 +53,7 @@ const Browse = () => {
                 Search results:
               </h2>
               <div className="movies">
-                <Movie/>
-                <Movie/>
-                <Movie/>
+                {/* /* this is where i put the js after console logging  */}
               </div>
             </div>
           </div>
