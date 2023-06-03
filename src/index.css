@@ -200,6 +200,8 @@ ul {
 .movies__header--title {
   margin-bottom: 0;
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .movies__keyword--search{
@@ -240,36 +242,17 @@ ul {
 
 .movies{
   display: flex;
-  flex-wrap:wrap;
-  margin: 0 -16px;
+  flex-wrap: wrap;
 }
 
-.movie{
-  width: 25%;
-  padding: 24px;
-  transition:all 300ms ease;
-}
 
-.movie:hover{
-  transform: translateY(-4px);
-}
 
-.movie img{
-  max-height: 320px;
-  max-width: 250px;
-  transition: all 300ms ease;
-}
 
-/* .movie__img--wrapper{
-  margin-bottom: 8px;
-  border-radius: 4px;
-  overflow: hidden;
-  display: flex;
-} */
 
-.movie__title--link{
-  color: #242424;
-}
+
+
+
+
 
 
 
