@@ -13,6 +13,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path= "/browse" element={<Browse/>}></Route>
+        {/* make a route for movie info page */}
         </Routes>
         <Footer />
       </div>

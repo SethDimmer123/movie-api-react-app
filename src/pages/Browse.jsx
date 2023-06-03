@@ -7,7 +7,7 @@ const Browse = () => {
 
 useEffect(() => {
   async function fetchMovies() {
-    const data = await fetch("https://www.omdbapi.com/?i=tt3896198&apikey=26015f09&s=movie")
+    const {data} = await axios.get(`https://www.omdbapi.com/?i=tt3896198&apikey=26015f09&s=fast`)
     console.log(data)
   }
   fetchMovies()
@@ -52,8 +52,12 @@ useEffect(() => {
               <h2 className="section__title movies__header--title">
                 Search results:
               </h2>
-              <div className="movies">
-                {/* /* this is where i put the js after console logging  */}
+              <div className="movies__wrapper">
+                <div className="movie__card">
+                  <div className="movie__card--container">
+                    <Movie/>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
