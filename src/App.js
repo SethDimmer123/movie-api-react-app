@@ -12,8 +12,9 @@ function App() {
         <Nav />
         <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path= "/browse" element={<Browse/>}></Route>
-        {/* make a route for movie info page */}
+        <Route path= "/browse" exact element={<Browse/>}></Route>
+        {/* <Route path= "/browse:id" element={<MovieInfo/>}></Route> */}
+        {/* make a dynamic route for movie info page */}
         </Routes>
         <Footer />
       </div>
