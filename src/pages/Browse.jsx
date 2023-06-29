@@ -3,15 +3,7 @@ import Movie from "../components/ui/Movie";
 import axios from "axios";
 
 const Browse = () => {
-  useEffect(() => {
-    async function fetchMovies() {
-      const { data } = await axios.get(
-        `https://www.omdbapi.com/?i=tt3896198&apikey=26015f09&s=fast`
-      );
-      console.log(data);
-    }
-    fetchMovies();
-  }, []);
+
 
   return (
     <section id="browse">
