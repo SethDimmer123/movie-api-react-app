@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Movie from "../components/ui/Movie";
 import axios from "axios";
 
-const Browse = () => {
+const Moviepage = () => {
 
 
   return (
@@ -47,4 +47,4 @@ const Browse = () => {
   );
 };
 
-export default Browse;
+export default Moviepage;

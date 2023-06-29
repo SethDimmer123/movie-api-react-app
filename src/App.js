@@ -2,7 +2,7 @@ import Footer from './components/Footer.jsx';
 import Nav from './components/Nav.jsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home';
-import Browse from './pages/Browse';
+import Browse from './pages/Moviepage.jsx';
 
 
 function App() {
